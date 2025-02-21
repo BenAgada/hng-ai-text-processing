@@ -43,7 +43,20 @@ body{
 
 @media (max-width: 600px) {
   body{
-    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    color: red;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
   }
- .input{
+ .input .main{
+    display: inline-block;
+    justify-content: center;
+    color: red;
+ }
+ .text{
+  color: black;
+  font-size: 12px;
+ }
+ .input textarea {
+   width: 200px;
+   padding: 10px;
+ }
 }
